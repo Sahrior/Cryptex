@@ -9,6 +9,7 @@ const Home = () => {
 
     const [cryptoList, setCryptoList] = useState([])
     const [isLoading, setIsLoading] = useState(true)
+    const [viewMode, setViewMode] = useState("grid")
 
     useEffect(()=>{
         fetchCryptoData();
@@ -29,6 +30,26 @@ const Home = () => {
 
   return (
     <div className="app">
+
+
+        <div className="controls">
+
+
+            <div className="filter-group">
+                <label>Sort by: </label>
+                <select>
+                    
+                </select>
+            </div>
+
+
+            <div className="view-toggle">
+                <button className= {viewMode==="grid" ? "active" : "" } onClick={()=>setViewMode("grid")} >Grid</button>
+                <button className= {viewMode==="list" ? "active" : "" } onClick={()=>setViewMode("list")} >List</button>
+            </div>
+        </div>
+
+
         { isLoading? (
 
             <div className='loading' >
@@ -38,9 +59,9 @@ const Home = () => {
 
         ) :  (
 
-            <div className='crypto-container' >
+            <div className={`crypto-container ${viewMode} `} >
                 {cryptoList.map((crypto, key) =>(
-                    <CryptoCard/>
+                    <CryptoCard crypto={crypto} key={key} />
                 ) )}
             </div>
 
