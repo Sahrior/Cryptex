@@ -1,16 +1,135 @@
-# React + Vite
+# Cryptex – Crypto Dashboard 💰📊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern cryptocurrency dashboard built with React and Vite. This project allows users to explore crypto market data, visualize price trends, and sort cryptocurrencies based on different metrics through a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features ✨
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📈 View crypto statistics with interactive graphs  
+* ⏱️ Toggle between **7-day** and **1-month** data  
+* 🔍 Search cryptocurrencies instantly  
+* 🔽 Sort coins by price, market cap, volume, and performance  
+* 📊 Smooth and responsive chart visualization  
+* 📱 Fully responsive design  
+* ⚡ Fast performance with Vite  
+* 🎨 Clean and modern UI  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack 🛠️
 
-## Expanding the ESLint configuration
+* React.js  
+* Vite  
+* JavaScript  
+* CSS  
+* Crypto API (CoinGecko / Binance / etc.)  
+* Chart Library (Chart.js / Recharts)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Folder Structure 📂
+
+```bash
+src/
+ ├── assets/
+ ├── components/
+ ├── pages/
+ ├── utils/
+ ├── App.jsx
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+## Installation ⚙️
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/cryptex.git
+```
+
+Go to the project directory:
+
+```bash
+cd cryptex
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Available Scripts 📜
+
+```bash
+npm run dev
+```
+
+Runs the app in development mode.
+
+```bash
+npm run build
+```
+
+Builds the app for production.
+
+```bash
+npm run preview
+```
+
+Preview the production build locally.
+
+---
+
+## API Used 🌐
+
+This project uses a cryptocurrency API to fetch real-time market data.
+
+Examples:
+
+* CoinGecko API  
+* Binance API  
+
+---
+
+## Future Improvements 🚀
+
+* 🔔 Price alerts & notifications  
+* ⭐ Watchlist / favorite coins  
+* 🌍 Multi-currency support  
+* 📉 Advanced analytics & indicators  
+* 🌙 Dark mode support  
+* 📊 More chart customization  
+
+---
+
+## Learning Outcomes 📚
+
+Through this project, I practiced:
+
+* React component architecture  
+* API integration and data fetching  
+* State management  
+* Data visualization with charts  
+* Sorting and filtering logic  
+* Responsive UI development  
+* Working with real-time data  
+
+---
+
+## Author 👨‍💻
+
+Sahrior  
+
+* GitHub: https://github.com/Sahrior  
+* LinkedIn: https://www.linkedin.com/in/sahrior/  
