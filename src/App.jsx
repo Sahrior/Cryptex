@@ -5,6 +5,9 @@ import CoinDetail from './pages/CoinDetail'
 
 const App = () => {
   return (
+
+    
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />

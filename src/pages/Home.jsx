@@ -5,6 +5,8 @@ import CryptoCard from '../components/CryptoCard'
 
 const Home = () => {
 
+    const pew_pew = ()=>{}
+
     
 
     const [cryptoList, setCryptoList] = useState([])
