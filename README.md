@@ -1,32 +1,37 @@
-# Cryptex – Crypto Dashboard 💰📊
+# 🚀 Cryptex – ক্রিপ্টো ড্যাশবোর্ড 💰📊
 
-A modern cryptocurrency dashboard built with React and Vite. This project allows users to explore crypto market data, visualize price trends, and sort cryptocurrencies based on different metrics through a clean and responsive interface.
+Cryptex হলো একটি আধুনিক ক্রিপ্টোকারেন্সি ড্যাশবোর্ড, যা মূলত বাংলাদেশি ট্রেডার এবং নতুন শেখা ইউজারদের জন্য তৈরি করা হয়েছে।  
+এটি রিয়েল-টাইম মার্কেট ডেটা দেখায়, প্রাইস ট্রেন্ড বিশ্লেষণ করে এবং সহজভাবে ক্রিপ্টো বোঝার সুযোগ দেয়।
 
-## Features ✨
-
-* 📈 View crypto statistics with interactive graphs  
-* ⏱️ Toggle between **7-day** and **1-month** data  
-* 🔍 Search cryptocurrencies instantly  
-* 🔽 Sort coins by price, market cap, volume, and performance  
-* 📊 Smooth and responsive chart visualization  
-* 📱 Fully responsive design  
-* ⚡ Fast performance with Vite  
-* 🎨 Clean and modern UI  
+এই প্রজেক্টের লক্ষ্য হলো ক্রিপ্টো মার্কেটকে সহজ, ভিজ্যুয়াল এবং beginner-friendly করা, যাতে নতুন ট্রেডাররা দ্রুত বুঝতে পারে কোন কয়েন কেমন পারফর্ম করছে।
 
 ---
 
-## Tech Stack 🛠️
+## ✨ ফিচারসমূহ
 
-* React.js  
-* Vite  
-* JavaScript  
-* CSS  
-* Crypto API (CoinGecko / Binance / etc.)  
-* Chart Library (Chart.js / Recharts)  
+- 📈 রিয়েল-টাইম ক্রিপ্টো স্ট্যাটিস্টিক্স ও চার্ট  
+- ⏱️ ৭ দিন ও ১ মাসের প্রাইস ট্রেন্ড দেখা যায়  
+- 🔍 দ্রুত ক্রিপ্টো সার্চ করার সুবিধা  
+- 🔽 দাম, মার্কেট ক্যাপ, ভলিউম অনুযায়ী sorting  
+- 📊 স্মুথ ও responsive চার্ট ভিজ্যুয়ালাইজেশন  
+- 📱 মোবাইল ও ডেক্সটপ সম্পূর্ণ responsive  
+- ⚡ দ্রুত পারফরম্যান্স (Vite powered)  
+- 🎨 আধুনিক ও clean UI ডিজাইন  
 
 ---
 
-## Folder Structure 📂
+## 🛠️ Tech Stack
+
+- React.js  
+- Vite  
+- JavaScript  
+- CSS  
+- CoinGecko API  
+- Recharts (Chart Library)  
+
+---
+
+## 📂 Folder Structure
 
 ```bash
 src/
@@ -37,7 +42,6 @@ src/
  ├── App.jsx
  ├── main.jsx
  └── index.css
-```
 
 ---
 
