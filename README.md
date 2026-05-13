@@ -50,7 +50,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/cryptex.git
+git clone https://github.com/Sahrior/cryptex.git
 ```
 
 Go to the project directory:
